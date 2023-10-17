@@ -31,7 +31,6 @@ header > img {
 
 nav {
     background-color: #333333;
-    /* height: 60px; */
     padding: 15px 0;
     color: #fff;
     border-radius: 24px;
@@ -64,3 +63,47 @@ section {
 article {
     flex: 1;
 }
+
+.banner {
+    margin: 40px 0;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: 0 67%;
+    color: #fff;
+    border-radius: 24px;
+}
+
+.banner-text {
+    max-width: 75%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2e6d8; /* Set your desired background color */
+    border-radius: 15px; /* Adjust the border-radius as needed */
+    padding: 20px; /* Adjust the padding as needed */
+    margin: 10px; /* Adjust the margin as needed to create spacing between cards */
+}
+
+.card img {
+    width: 250px; /* Set the width of the images to 200px */
+    height: 250px;
+    object-fit: cover;
+}
+
+.card p {
+    padding-top: 20px;
+    margin-top: auto; /* Move the text to the bottom of the card */
+}
+

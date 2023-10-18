@@ -58,6 +58,11 @@ nav li a {
     color: #fff;
     text-decoration: none;
     font-size: 30px;
+    transition: color 0.3s;
+}
+
+nav li a:hover {
+    color: #4d5d57; /* Change the text color to red on hover */
 }
 
 section { 
@@ -98,7 +103,14 @@ article {
     background-color: #f2e6d8;
     border-radius: 15px;
     padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 
 .card img {
     width: 250px;

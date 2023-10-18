@@ -17,8 +17,12 @@ h2 {
     font-size: 2rem;
 }
 
+p {
+    font-size: 1.5rem;
+}
+
 header {
-    margin: 60px 0; /* 80px top and bottom, 0 left and right */
+    margin: 50px 0; /* 80px top and bottom, 0 left and right */
     text-align: center;
 }
 
@@ -82,7 +86,8 @@ article {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 10px; 
 }
 
 .card {
@@ -90,10 +95,9 @@ article {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #f2e6d8; /* Set your desired background color */
-    border-radius: 15px; /* Adjust the border-radius as needed */
-    padding: 20px; /* Adjust the padding as needed */
-    margin: 10px; /* Adjust the margin as needed to create spacing between cards */
+    background-color: #f2e6d8;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .card img {
@@ -107,3 +111,22 @@ article {
     margin-top: auto; /* Move the text to the bottom of the card */
 }
 
+footer {
+    margin-top: 20px;
+    display: flex; /* Set the display property to flex */
+    justify-content: space-between; /* Distribute the two columns evenly */
+}
+
+footer div {
+    flex: 1; /* Set the flex property to 1 */
+}
+
+footer img {
+    width: 80px;
+}
+
+footer div:nth-child(2) {
+    text-align: right;
+    border-top: 1px solid #333333;
+
+}

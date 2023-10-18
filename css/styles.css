@@ -22,7 +22,7 @@ p {
 }
 
 header {
-    margin: 50px 0; /* 80px top and bottom, 0 left and right */
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -101,24 +101,24 @@ article {
 }
 
 .card img {
-    width: 250px; /* Set the width of the images to 200px */
+    width: 250px;
     height: 250px;
     object-fit: cover;
 }
 
 .card p {
     padding-top: 20px;
-    margin-top: auto; /* Move the text to the bottom of the card */
+    margin-top: auto;
 }
 
 footer {
     margin-top: 20px;
-    display: flex; /* Set the display property to flex */
-    justify-content: space-between; /* Distribute the two columns evenly */
+    display: flex;
+    justify-content: space-between;
 }
 
 footer div {
-    flex: 1; /* Set the flex property to 1 */
+    flex: 1;
 }
 
 footer img {
